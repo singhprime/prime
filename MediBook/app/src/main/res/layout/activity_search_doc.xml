@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gsvasir.pro.SearchDoc"
+    android:background="@drawable/hospital"
+    android:gravity="top">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9d2d1663"
+        android:orientation="vertical">
+        <EditText android:id="@+id/inputSearch"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/s"
+            android:singleLine="true"
+            android:hint="Please Select state/City/Hospital To Locate On Map"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:textColor="#060606"
+            android:textColorHint="#3d0808"
+            android:inputType="text"/>
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="wrap_content"
+            android:layout_height="450sp"
+            android:contextClickable="true"/>
+    </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#58b60d0f">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/call"
+        android:text="CALL THE HOSPITAL"
+        android:textSize="25dp"
+        android:background="#aac67e2c"
+        android:textColor="#e2db11"
+        android:id="@+id/call"
+        android:textStyle="italic"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BOOK YOUR APPOINTMET"
+        android:gravity="center"
+        android:drawableLeft="@drawable/appoint"
+        android:textSize="25dp"
+        android:id="@+id/book"
+        android:layout_below="@+id/call"
+        android:background="#aac67e2c"
+        android:textColor="#e2db11"/>
+
+
+</RelativeLayout>
+
+
+</LinearLayout>

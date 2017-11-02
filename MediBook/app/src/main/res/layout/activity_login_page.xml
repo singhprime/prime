@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hospital"
+    android:layout_height="match_parent"
+    tools:context="com.gsvasir.pro.LoginPage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:textSize="35dp"
+        android:layout_marginTop="40sp"
+        android:textColor="#080808"
+        android:id="@+id/t1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e1"
+        android:singleLine="true"
+        android:textColor="#080808"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textColor="#080808"
+        android:textSize="35dp"
+        android:id="@+id/t2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="#080808"
+        android:id="@+id/e2"
+        />
+    <Button
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/b1"
+        android:text="LOGIN"
+        android:background="#b14c45a6"
+        android:textColor="#fff"
+        android:textSize="35dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="#1b173e"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:background="@android:color/holo_orange_light"
+        android:layout_gravity="clip_horizontal"
+        android:text="ADMIN LOGIN PAGE"
+        android:textColor="#080808"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="4sp"
+        android:background="#1b173e"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b3"
+        android:textColor="#080808"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_gravity="clip_horizontal"
+        android:text="Register"
+        android:textSize="25dp"/>
+
+
+</LinearLayout>
+

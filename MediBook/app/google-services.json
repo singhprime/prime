@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "653463595542",
+    "firebase_url": "https://ambient-decoder-172804.firebaseio.com",
+    "project_id": "ambient-decoder-172804",
+    "storage_bucket": "ambient-decoder-172804.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653463595542:android:75687cc02a0180a1",
+        "android_client_info": {
+          "package_name": "com.gsvasir.pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653463595542-u7jc94e1ttaut90fp7o78ovcomk5u20g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gsvasir.pro",
+            "certificate_hash": "90549eb9e7f6ef85d2a0da4bf772219b1cb401fa"
+          }
+        },
+        {
+          "client_id": "653463595542-s19sn0lsf8p7drfundb8irot5ss7b2pt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhLoQw4GncK6klMNa5Nd4xMKCOnam2bG0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653463595542-s19sn0lsf8p7drfundb8irot5ss7b2pt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

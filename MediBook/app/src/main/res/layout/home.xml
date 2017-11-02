@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/x"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context="com.gsvasir.pro.Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="45sp"
+            android:layout_height="40sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/exit"
+            android:id="@+id/b1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50sp"
+        android:gravity="center">
+        <Button
+
+            android:layout_width="70sp"
+            android:layout_height="85sp"
+            android:background="@drawable/mk"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="MediBook"
+            android:fontFamily="cursive"
+            android:textColor="#fff"
+            android:textSize="60sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125sp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/gp"
+            android:backgroundTint="#83691111"
+            android:textColor="#fff"
+            android:text="Google+"
+            android:id="@+id/gp"
+            android:fontFamily="sans-serif"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/fb"
+            android:backgroundTint="#8f1a1973"
+            android:text="facebook"
+            android:id="@+id/fb"
+            android:fontFamily="serif"
+            android:textColor="#fff"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="50sp">
+        <Button
+            android:layout_width="150sp"
+            android:layout_height="70sp"
+            android:text="Sign Up"
+            android:id="@+id/sb"
+            android:background="@drawable/x"
+            android:textColor="#dcd5d5"
+            android:gravity="center"
+            android:textSize="30sp"
+            />
+        <Button
+            android:layout_width="150sp"
+            android:layout_height="70sp"
+            android:text="Log In"
+            android:layout_marginLeft="25sp"
+            android:gravity="center"
+            android:textColor="#dcd5d5"
+            android:background="@drawable/x"
+            android:textSize="30sp"
+            android:id="@+id/lb"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ab3d2020">
+        <TextView
+            android:layout_marginTop="55sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:textStyle="italic"
+            android:text="By Signing In, I agree to Vtravel's Terms of Service, Privacy Policy and Host gaurantee terms."
+            android:textSize="15sp"
+            android:id="@+id/txt"
+            android:textColor="#ed6b5a47"/>
+    </LinearLayout>
+</LinearLayout>
+
